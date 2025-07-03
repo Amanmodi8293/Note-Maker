@@ -5,9 +5,9 @@
 	<session-factory>
 
 		<property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-		<property name="connection.url">jdbc:mysql://localhost:3306/javablog</property>
-		<property name="connection.username">Aman12</property>
-		<property name="connection.password">Aman12@?</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306/NoteMaker</property>
+		<property name="connection.username"></property> // Your UserName
+		<property name="connection.password"></property> // Your Password
 		<property name="diaLect">org.hibernate.dialect.MySQLDialect</property>
 		<property name="hbm2ddl.auto">update</property>
 		<property name="show_sql">true</property>
